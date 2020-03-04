@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Software Development</title>
-	<link rel = "stylesheet" type = "text/css" href = "styles/advisordefault.css" />
+	<link rel = "stylesheet" type = "text/css" href = "styles/default.css" />
 	
 	<script>
 	function allowDrop(ev) {
@@ -38,43 +38,74 @@ some of the time right?</p>
 
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-<button id="CTI110" draggable="true" ondragstart="drag(event)">CTI110 Web, Programming, & DB Found.</button>
-<button id="CTI120" draggable="true" ondragstart="drag(event)">CTI120 Network & Security Found.</button>
-<button id="CTI130" draggable="true" ondragstart="drag(event)">CTI130 O.S & Device Found.</button>
-<button id="CTS115" draggable="true" ondragstart="drag(event)">CTS115 Info Sys Business Concepts</button>
-<button id="ENG111" draggable="true" ondragstart="drag(event)">CTS115 Writing and Inquiry</button>
+    <h3>General Education Courses</h3>
+    
+    <button class = "gened" id="ENG111" draggable="true" ondragstart="drag(event)">ENG111 - Writing and Inquiry</button>
+    <button class = "gened" id="Science" draggable="true" ondragstart="drag(event)">Social/Behavioral Science</button>
+    <button class = "gened" id="Elective" draggable="true" ondragstart="drag(event)">Humanities/Fine Arts Elective</button>
+    <button class = "gened" id="MAT143" draggable="true" ondragstart="drag(event)">MAT143 Quantitative Literacy</button>
+    <button class = "gened" id="COM231" draggable="true" ondragstart="drag(event)">COM231 Public Speaking</button>
+    <button class = "gened" id="ENG114/112" draggable="true" ondragstart="drag(event)">ENG114 Prof. Research & Reporting OR ENG 112 Writing/Reseach in the Disc.</button>
 </div>
 
 <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
-<button id="CSC143" draggable="true" ondragstart="drag(event)">CSC143 Object-Oriented Programming</button>
-<button id="CSC154" draggable="true" ondragstart="drag(event)">CSC154 Software Development</button>
-<button id="MAT143" draggable="true" ondragstart="drag(event)">MAT143 Quantitative Literacy</button>
-<button id="WEB110" draggable="true" ondragstart="drag(event)">WEB110 Internet/Web Fundamentals</button>
+    <h3>CTI Core</h3>
+    <button class = "cticore" id="CTI110" draggable="true" ondragstart="drag(event)">CTI110 Web, Programming, & DB Found.</button>
+    <button class = "cticore" id="CTI120" draggable="true" ondragstart="drag(event)">CTI120 Network & Security Found.</button>
+    <button class = "cticore" id="CTI130" draggable="true" ondragstart="drag(event)">CTI130 O.S & Device Found.</button>
+    <button class = "cticore" id="CTS115" draggable="true" ondragstart="drag(event)">CTS115 Info Sys Business Concepts</button>
+    
+    
+   
+
 </div>
 
 <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
-<button id="CIS110" draggable="true" ondragstart="drag(event)">CIS110 Introduction to Computers</button>
-<button id="COM231" draggable="true" ondragstart="drag(event)">COM231 Public Speaking</button>
+    <h3>Area Core: SW  , Fullstack & Web</h3>
+    <button class = "areacore" id="CIS110" draggable="true" ondragstart="drag(event)">CIS110 Introduction to Computers</button>
+    <button class = "areacore" id="WEB110" draggable="true" ondragstart="drag(event)">WEB110 Internet/Web Fundamentals</button>
+    <button class = "areacore transfer" id="CSC143/120" draggable="true" ondragstart="drag(event)">CSC143 (CSC120) - Object-Oriented Programming</button>
+    <button class = "areacore" id="CTS240" draggable="true" ondragstart="drag(event)">CTS240 Project Management</button>
+    <button class = "areacore" id="DBA120" draggable="true" ondragstart="drag(event)">DBA120 Database Programming I</button>
+
 </div>
 
 <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
-<button id="CSC151" draggable="true" ondragstart="drag(event)">CSC151 Java Programming</button>
-<button id="CSC174" draggable="true" ondragstart="drag(event)">CSC174 JavaScript</button>
-<button id="CTS240" draggable="true" ondragstart="drag(event)">CTS240 Project Management</button>
-<button id="DBA120" draggable="true" ondragstart="drag(event)">DBA120 Database Programming I</button>
-<button id="ENG114/112" draggable="true" ondragstart="drag(event)">ENG114 Prof. Research & Reporting OR ENG 112 Writing/Reseach in the Disc.</button>
+    <h3>Fullstack & Web</h3>
+    <button class = "fullstack web" id="web115" draggable="true" ondragstart="drag(event)">WEB115 - Web Markup & Scripting</button>
+    <button class = "fullstack web" id="web215" draggable="true" ondragstart="drag(event)">WEB215 - Advanced Markup & Scripting</button>
 </div>
 
 <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
-<button id="CSC249" draggable="true" ondragstart="drag(event)">CSC249 Data Structures & Algorithms</button>
-<button id="CSC251" draggable="true" ondragstart="drag(event)">CSC251 Advanced Java Programming</button>
-<button id="CSC256/284" draggable="true" ondragstart="drag(event)">CSC256 Software Quality Assurance OR CSC 284 Emerging Comp Prog Tech</button>
-<button id="CTI289" draggable="true" ondragstart="drag(event)">CTI289 Capstone Project</button>
+    <h3>Transfer Only</h3>
+
 </div>
 
 <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
-<button id="Elective" draggable="true" ondragstart="drag(event)">Humanities/Fine Arts Elective</button>
-<button id="Science" draggable="true" ondragstart="drag(event)">Social/Behavioral Science</button>
+    <h3>Software Only</h3>
+    <button class = "software fullstack" id="CSC154" draggable="true" ondragstart="drag(event)">CSC154 Software Development</button>
+    <button class = "software transfer" id="CSC151" draggable="true" ondragstart="drag(event)">CSC151 Java Programming</button>
+    <button class = "software" id="CSC174" draggable="true" ondragstart="drag(event)">CSC174 Server-Side JavaScript</button>
+    <button class = "software transfer" id="CSC249" draggable="true" ondragstart="drag(event)">CSC249 Data Structures & Algorithms</button>
+    <button class = "software" id="CSC251" draggable="true" ondragstart="drag(event)">CSC251 Advanced Java Programming</button>
+    <button class = "software" id="CSC256/284" draggable="true" ondragstart="drag(event)">CSC256 Software Quality Assurance OR CSC 284 Emerging Comp Prog Tech</button>
+</div>
+
+<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3>Fullstack Only Courses</h3>
+    <button class = "fullstack transfer" id="cis115" draggable="true" ondragstart="drag(event)">CIS115 - Intro to Programming & Logic</button>
+    <button class = "fullstack" id="csc121" draggable="true" ondragstart="drag(event)">CSC121 - Python</button>
+    <button class = "fullstack" id="csc122" draggable="true" ondragstart="drag(event)">CSC122 - Advanced Python</button>
+    <button class = "fullstack" id="csc289" draggable="true" ondragstart="drag(event)">CSC289 - Programming Project (Spring Only)</button>
+</div>
+
+<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3>Web Only Courses</h3>
+
+    <button class = "web" id="web120" draggable="true" ondragstart="drag(event)">WEB120 - Web Multimedia</button>
+    <button class = "web" id="web210" draggable="true" ondragstart="drag(event)">WEB210 - Web Design (Fall Only)</button>
+    <button class = "web" id="web250" draggable="true" ondragstart="drag(event)">WEB250 - Database-driven Websites</button>
+    <button class = "web" id="CTI289" draggable="true" ondragstart="drag(event)">CTI289 - CTI Capstone Project</button>
 </div>
 
 </main>
