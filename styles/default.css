@@ -3,14 +3,11 @@ body
   /*margin: 10px 10% 10px 10%;*/
   font-family: Tahoma;
   background-color: silver; /*(darker soft blue?)*/
-  color:  #cccc99; /*light gold*/ 
+  color: teal; /*light gold*/ 
 }
 
-main
-{
-		
-}
-
+a, a:visited { color: burlywood; }
+a:hover { color: plum; }
 
 header, footer
 {
@@ -26,5 +23,4 @@ button{
 	color: #000033; /*very dary blue*/
 	background-color: #D4E6F1; /*light blue*/
 	border-radius: 6px;
-	
 }
