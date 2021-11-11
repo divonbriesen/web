@@ -9,17 +9,17 @@
 </head>
 <body>
 
-<div data-include="components/header.html"></div>
+<div data-include="components/header.html" data-replace="%name%:Mike"></div>
 
 <main>
     <h2>Page name goes here</h2>
     Main stuff goes here.
     <h3>
-        This page is: <script>window.location.href</script>
+        This page is: <script>alert(window.location.href);</script>
     </h3>
 </main>
 
-    <div data-include="components/footer.html"></div>
+    <div data-include="components/footer.html" data-replace="%pageURL%:http://somethingorother"></div>
 
     <script src="scripts/HTMLInclude.js"></script>
 </body>
