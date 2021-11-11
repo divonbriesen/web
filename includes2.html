@@ -14,12 +14,15 @@
 <main>
     <h2>Page name goes here</h2>
     Main stuff goes here.
-    <h3>
-    //    This page is: <script>alert(window.location.href);</script>
+    <h3 id = "currenturl">
+        This page is: 
+        <script>
+                document.getElementById("currenturl").innerHTML = window.location.href;
+        </script>
     </h3>
 </main>
 
-    <div data-include="components/footer.html" data-replace="%pageURL%:http://somethingorother"></div>
+    <div data-include="components/footer.html"></div>
 
     <script src="scripts/HTMLInclude.js"></script>
 </body>
