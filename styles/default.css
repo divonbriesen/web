@@ -7,7 +7,8 @@ body
     margin-left: 100px;
 }
 
-a, a:visited { color: chocolate ; }
+a { color: darkgreen; } 
+a:visited { color: chocolate; }
 a:hover { color: darkblue; }
 
 header, footer
