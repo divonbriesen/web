@@ -1,26 +1,16 @@
 body
 { 
-  /*margin: 10px 10% 10px 10%;*/
-  font-family: Tahoma;
-  background-color: silver; /*(darker soft blue?)*/
-  color: teal; /*light gold*/ 
+    font-family: Tahoma;
+    background-color: silver; 
+    color: teal; 
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
-a, a:visited { color: burlywood; }
-a:hover { color: plum; }
+a, a:visited { color: chocolate ; }
+a:hover { color: darkblue; }
 
 header, footer
 {
   text-align: center;
-  clear: both;
-}
-
-
-button{
-    width: 350px;
-    height: 40px;
-	text-align: left;
-	color: #000033; /*very dary blue*/
-	background-color: #D4E6F1; /*light blue*/
-	border-radius: 6px;
 }
